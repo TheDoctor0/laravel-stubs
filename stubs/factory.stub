@@ -1,0 +1,13 @@
+<?php
+
+declare(strict_types=1);
+
+use Faker\Generator as Faker;
+use {{ namespacedModel }};
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define({{ model }}::class, function (Faker $faker): array {
+    return [
+        //
+    ];
+});

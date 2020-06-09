@@ -1,0 +1,55 @@
+{
+    "name": "thedoctor0/laravel-stubs",
+    "description": "Opinionated versions of the Laravel stubs for Artisan make commands",
+    "keywords": [
+        "thedoctor0",
+        "artisan",
+        "laravel",
+        "stubs",
+        "laravel-stubs"
+    ],
+    "homepage": "https://github.com/TheDoctor0/laravel-stubs",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dawid Janik",
+            "email": "dawid.janik95@gmail.com",
+            "homepage": "https://dawidjanik.com",
+            "role": "Full-Stack Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "laravel/framework": "^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.3",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheDoctor0\\Stubs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheDoctor0\\Stubs\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheDoctor0\\Stubs\\StubsServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
