@@ -1,6 +1,6 @@
 # Laravel Stubs
 
-This package contains opinionated versions of the Laravel stubs for Artisan make commands.
+This package contains opinionated versions of the Laravel 7.x (and later) stubs for Artisan make commands.
 
 ## Changes
 
