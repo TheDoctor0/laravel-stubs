@@ -10,23 +10,11 @@ use Illuminate\Filesystem\Filesystem;
 use Illuminate\Console\ConfirmableTrait;
 use Symfony\Component\Finder\SplFileInfo;
 
+#[\Illuminate\Console\Attributes\Description('Publish all opinionated stubs that are available for customization')]
+#[\Illuminate\Console\Attributes\Signature('stubs:publish {--force : Overwrite any existing files}')]
 class StubsPublishCommand extends Command
 {
     use ConfirmableTrait;
-
-    /**
-     * The name and signature of the console command.
-     *
-     * @var string
-     */
-    protected $signature = 'stubs:publish {--force : Overwrite any existing files}';
-
-    /**
-     * The console command description.
-     *
-     * @var string
-     */
-    protected $description = 'Publish all opinionated stubs that are available for customization';
 
     /**
      * Execute the console command.
