@@ -39,6 +39,9 @@ jobs:
           coverage: none
 
       - run: |
+          # Laravel 11 is security-EOL; composer's advisory policy would refuse
+          # to resolve it — CI still exercises it deliberately.
+          composer config policy.advisories.block false
           composer require "laravel/framework:${{ matrix.laravel }}" "orchestra/testbench:${{ matrix.testbench }}" --no-interaction --no-update
           composer update --prefer-dist --no-interaction
 
