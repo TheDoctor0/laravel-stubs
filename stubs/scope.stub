@@ -1,0 +1,22 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use Illuminate\Database\Eloquent\Builder;
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Scope;
+
+class {{ class }} implements Scope
+{
+    /**
+     * Apply the scope to a given Eloquent query builder.
+     *
+     * @param \Illuminate\Database\Eloquent\Builder<\Illuminate\Database\Eloquent\Model> $builder
+     */
+    public function apply(Builder $builder, Model $model): void
+    {
+        //
+    }
+}

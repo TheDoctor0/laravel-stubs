@@ -6,12 +6,10 @@ namespace {{ namespace }};
 
 use Illuminate\Contracts\Validation\Rule;
 
-final class {{ class }} implements Rule
+class {{ class }} implements Rule
 {
     /**
      * Create a new rule instance.
-     *
-     * @return void
      */
     public function __construct()
     {

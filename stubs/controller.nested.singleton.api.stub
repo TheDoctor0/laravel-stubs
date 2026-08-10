@@ -1,0 +1,29 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use {{ namespacedParentModel }};
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
+
+class {{ class }} extends Controller
+{
+    /**
+     * Display the resource.
+     */
+    public function show({{ parentModel }} ${{ parentModelVariable }}): Response
+    {
+        //
+    }
+
+    /**
+     * Update the resource in storage.
+     */
+    public function update(Request $request, {{ parentModel }} ${{ parentModelVariable }}): Response
+    {
+        //
+    }
+}

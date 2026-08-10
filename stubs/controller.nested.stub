@@ -10,7 +10,7 @@ use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 use {{ namespacedParentModel }};
 
-final class {{ class }} extends Controller
+class {{ class }} extends Controller
 {
     /**
      * Display a listing of the resource.

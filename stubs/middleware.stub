@@ -6,7 +6,7 @@ namespace {{ namespace }};
 
 use Closure;
 
-final class {{ class }}
+class {{ class }}
 {
     /**
      * Handle an incoming request.

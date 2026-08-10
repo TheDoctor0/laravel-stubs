@@ -4,3 +4,4 @@ coverage
 vendor
 build
 .idea
+.phpunit.cache/
