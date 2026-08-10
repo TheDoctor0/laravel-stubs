@@ -7,7 +7,7 @@ namespace {{ namespace }};
 use {{ rootNamespace }}Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-final class {{ class }} extends Controller
+class {{ class }} extends Controller
 {
 
 }

@@ -6,7 +6,7 @@ namespace {{ namespace }};
 
 use Illuminate\Console\Command;
 
-final class {{ class }} extends Command
+class {{ class }} extends Command
 {
     /**
      * The name and signature of the console command.
@@ -24,8 +24,6 @@ final class {{ class }} extends Command
 
 	/**
      * Create a new command instance.
-     *
-     * @return void
      */
     public function __construct()
     {

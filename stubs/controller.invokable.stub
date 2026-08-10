@@ -8,7 +8,7 @@ use {{ rootNamespace }}Http\Controllers\Controller;
 use Illuminate\Http\Response;
 use Illuminate\Http\Request;
 
-final class {{ class }} extends Controller
+class {{ class }} extends Controller
 {
     /**
      * Handle the incoming request.

@@ -1,0 +1,38 @@
+<?php
+
+declare(strict_types=1);
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use {{ namespacedParentModel }};
+use Illuminate\Http\RedirectResponse;
+use Illuminate\Http\Request;
+use Illuminate\View\View;
+
+class {{ class }} extends Controller
+{
+    /**
+     * Display the resource.
+     */
+    public function show({{ parentModel }} ${{ parentModelVariable }}): View
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the resource.
+     */
+    public function edit({{ parentModel }} ${{ parentModelVariable }}): View
+    {
+        //
+    }
+
+    /**
+     * Update the resource in storage.
+     */
+    public function update(Request $request, {{ parentModel }} ${{ parentModelVariable }}): RedirectResponse
+    {
+        //
+    }
+}

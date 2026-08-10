@@ -12,8 +12,6 @@ class {{ class }}
 {
     /**
      * Create the event listener.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -24,7 +22,6 @@ class {{ class }}
      * Handle the event.
      *
      * @param  \{{ namespacedEvent }}  $event
-     * @return void
      */
     public function handle({{ event }} $event): void
     {

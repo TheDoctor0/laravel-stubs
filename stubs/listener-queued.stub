@@ -14,8 +14,6 @@ class DummyClass implements ShouldQueue
 
     /**
      * Create the event listener.
-     *
-     * @return void
      */
     public function __construct()
     {
@@ -26,7 +24,6 @@ class DummyClass implements ShouldQueue
      * Handle the event.
      *
      * @param  \{{ namespacedEvent }}  $event
-     * @return void
      */
     public function handle({{ event }} $event): void
     {
