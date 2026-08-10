@@ -2,7 +2,7 @@
 
 All notable changes to `laravel-stubs` will be documented in this file.
 
-## Unreleased
+## 2.0.0 - 2026-08-10
 
 - Support Laravel 11, 12, and 13 on a single branch (PHP 8.2+)
 - New stubs: `enum`, `enum.backed`, `class`, `class.invokable`, `trait`, `scope`,
