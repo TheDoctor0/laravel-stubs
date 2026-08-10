@@ -5,7 +5,7 @@
 [![Packagist](https://img.shields.io/packagist/dt/TheDoctor0/laravel-stubs.svg)](https://packagist.org/packages/TheDoctor0/laravel-stubs)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/TheDoctor0/laravel-stubs/blob/master/LICENSE.md)
 
-This package contains opinionated versions of the Laravel 7.x (and later) stubs for Artisan make commands.
+This package contains opinionated versions of the Laravel 13.x stubs for Artisan make commands. It requires PHP 8.3+ and Laravel 13; for older Laravel versions, use a previous release of this package.
 
 ## Changes
 
